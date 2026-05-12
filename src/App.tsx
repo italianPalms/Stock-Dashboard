@@ -79,9 +79,17 @@ export default function App() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
-          <div>
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Portfolio</h1>
-            <p className="text-gray-500 dark:text-gray-400 mt-1 text-sm">Track your stock positions</p>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-blue-600 shadow-sm shrink-0">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                <polyline points="16 7 22 7 22 13" />
+              </svg>
+            </div>
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Portfolio</h1>
+              <p className="text-gray-500 dark:text-gray-400 mt-1 text-sm">Track your stock positions</p>
+            </div>
           </div>
           <div className="flex items-center gap-3">
             <button
